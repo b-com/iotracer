@@ -1,0 +1,20 @@
+# fio engine
+ioengine='sync'
+# Use non-buffered I/O ?
+direct=1
+# total size for I/O = 750MB
+size=786432000
+# block size for I/O = 4k
+blocksize=4096
+# I/O = 50% reads / 50% writes
+rwmixread=50
+# 60% of reads are random access
+percentage_random_read=60
+# 25% of writes are random access
+percentage_random_write=25
+
+# allowed differences in results
+percentage_ios_diff=2
+percentage_read_diff=7
+percentage_write_diff=1
+percentage_rate_diff=7

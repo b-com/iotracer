@@ -1,0 +1,17 @@
+/check_kernel_config/
+/check_module_build/
+*.cmd
+*.o
+*.ko
+.idea
+Kbuild
+check_module_build
+check_kernel_config
+*.deb
+/copyright
+/compat
+/control
+Module.symvers
+modules.order
+*.mod.c
+__pycache__/
