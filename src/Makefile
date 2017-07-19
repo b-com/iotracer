@@ -1,7 +1,7 @@
 obj-m += iotracer.o
 
 iotracer-src  := $(wildcard *.c probes/*.c)
-iotracer-objs := iotracer_module.o kprobes.o iotracer_log.o
+iotracer-objs := iotracer_module.o kprobes.o iotracer_log.o dentry.o
 iotracer-objs += probes/filemap_probes.o
 iotracer-objs += probes/block_probes.o
 
